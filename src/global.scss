@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+footer {
+  background-color: cadetblue;
+}
+
+.softShadow {
+  filter: drop-shadow(2px 2px 2px black) drop-shadow(-2px -2px 2px black);
+}
+
+.greyedOut {
+  opacity: 0.5;
+  pointer-events: none;
+  position: relative;
+}

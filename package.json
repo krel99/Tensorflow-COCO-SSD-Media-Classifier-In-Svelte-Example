@@ -1,0 +1,28 @@
+{
+  "name": "gradedprojectn1",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "bun-types": "latest",
+    "sass": "^1.68.0",
+    "svelte": "^4.0.5",
+    "svelte-preprocess": "^5.0.4",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "module": "index.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.12.0"
+  }
+}
